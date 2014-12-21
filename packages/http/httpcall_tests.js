@@ -222,6 +222,9 @@ testAsyncMulti("httpcall - redirect", [
                 test.equal(result.statusCode, 200);
                 var data = result.data;
                 test.equal(data.url, "/foo");
+                // This is "GET" even when the initial request was a
+                // POST because browsers follow redirects with a GET
+                // even when the initial request was a different method.
                 test.equal(data.method, "GET");
               } else {
                 // should see redirect
