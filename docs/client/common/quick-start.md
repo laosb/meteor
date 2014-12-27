@@ -1,32 +1,31 @@
 {{#template name="quickStart"}}
-## Quick start!
+## 快速上手！
 
-The following works on all [supported
-platforms](https://github.com/meteor/meteor/wiki/Supported-Platforms).
+下面这些在所有[支持的平台](https://github.com/meteor/meteor/wiki/Supported-Platforms)上都能正常执行。
 
-Install Meteor:
+安装Meteor：
 
 ```bash
 $ curl https://install.meteor.com | /bin/sh
 ```
 
-Create a project:
+创建一个项目：
 
 ```bash
-$ meteor create myapp
+$ meteor create laosb-is-a-sb
 ```
 
-Run it locally:
+在本地运行：
 
 ```bash
-$ cd myapp
+$ cd laosb-is-a-sb
 $ meteor
-# Meteor server running on: http://localhost:3000/
+# Meteor服务器在 http://localhost:3000/ 上运行
 ```
 
-Unleash it on the world (on a free server we provide):
+向世界发布你的成就：
 
 ```bash
-$ meteor deploy myapp.meteor.com
+$ meteor deploy laosb-is-a-sb.meteor.com
 ```
 {{/template}}

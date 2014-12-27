@@ -1,25 +1,19 @@
 {{#template name="principles"}}
 
-<h2 id="sevenprinciples">Principles of Meteor</h2>
+<h2 id="sevenprinciples">Meteor七大原则</h2>
 
-- _Data on the Wire_. Meteor doesn't send HTML over the network. The server sends data and
-lets the client render it.
+- _只传输数据。_ Meteor不在网络上传输HTMl。服务器只发送数据，让客户端渲染。
 
-- _One Language._ Meteor lets you write both the client and the server parts of your
-application in JavaScript.
+- _同一种语言。_ Meteor让你用JavaScript编写客户端和服务器端代码。
 
-- _Database Everywhere_. You can use the same methods to access your
-database from the client or the server.
+- _哪里都有数据库。_ 你可以在服务器和客户端用同一种方法访问数据库。
 
-- _Latency Compensation_. On the client, Meteor prefetches data and simulates models to make it look like server method calls return instantly.
+- _延迟补偿。_ 在客户端，Meteor预获取数据并模拟服务器方法使app看起来没有延迟。
 
-- _Full Stack Reactivity_. In Meteor, realtime is the default. All layers, from
-database to template, update themselves automatically when necessary.
+- _全栈响应式。_ 在Meteor，实时是一种默认行为。所有层，从数据库到模版，在需要时会自动更新。
 
-- _Embrace the Ecosystem_. Meteor is open source and integrates with existing open source tools and frameworks.
+- _拥抱Meteor生态系统。_ Meteor是开源的，并且能够和现有的开源工具和框架整合。
 
-- _Simplicity Equals Productivity_. The best way to make something
-seem simple is to have it actually _be_ simple. Meteor's main functionality has
-clean, classically beautiful APIs.
+- _简约是种生产力。_ 让一样东西看起来简单的最佳方式是让他真正_变得_简单。Meteor基本功能有着简约优雅的API接口。
 
 {{/template}}

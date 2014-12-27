@@ -21,31 +21,31 @@ var item = function (name, options) {
 var sections = [
   section("", {
     subsections: [
-      section("Quick Start", {
+      section("快速上手", {
         id: "quickstart"
       }),
-      section("Principles", {
+      section("七大原则", {
         id: "sevenprinciples"
       }),
-      section("Learning Resources", {
+      section("学习资源", {
         id: "learning-resources"
       }),
-      section("Command Line Tool", {
+      section("命令行工具", {
         id: "command-line"
       }),
-      section("File Structure", {
+      section("文件结构", {
         id: "filestructure"
       }),
-      section("Building Mobile Apps", {
+      section("开发移动App", {
         id: "buildingmobileapps"
       })
     ]
   }),
-  section("Templates", {
+  section("模版", {
     id: "templates",
-    subtitle: "Create views that update automatically when data changes",
+    subtitle: "创建响应式模版",
     items: [
-      item("Defining templates in HTML", {id: "defining-templates"}),
+      item("用HTML定义模版", {id: "defining-templates"}),
       item("Template.<em>name</em>.helpers", {longname: "Template#helpers"}),
       item("Template.<em>name</em>.events", {longname: "Template#events"}),
       item("Template.<em>name</em>.rendered", {longname: "Template#rendered"}),
@@ -53,24 +53,24 @@ var sections = [
       item("<em>template</em>.find", {longname: "Blaze.TemplateInstance#find"})
     ]
   }),
-  section("Session", {
+  section("会话变量", {
     id: "session",
-    subtitle: "Store temporary data for the user interface",
+    subtitle: "为UI存储临时数据",
     items: [
       item("Session.set"),
       item("Session.get")
     ]
   }),
-  section("Tracker", {
+  section("跟踪器", {
     id: "tracker",
-    subtitle: "Re-run functions when data changes",
+    subtitle: "数据改变时重新执行一些东西",
     items: [
       item("Tracker.autorun")
     ]
   }),
-  section("Collections", {
+  section("数据集", {
     id: "collections",
-    subtitle: "Store persistent data",
+    subtitle: "持续性数据存储",
     items: [
       item("Mongo.Collection"),
       item("<em>collection</em>.findOne", {longname: "Mongo.Collection#findOne"}),
@@ -82,9 +82,9 @@ var sections = [
       item("<em>collection</em>.deny", {longname: "Mongo.Collection#deny"}),
     ]
   }),
-  section("Accounts", {
+  section("账户系统", {
     id: "accounts",
-    subtitle: "Let users log in with passwords, Facebook, Google, GitHub, etc.",
+    subtitle: "让用户通过密码、Facebook、Google、Github等登陆",
     items: [
       item("{{> loginButtons}}", {id: "loginButtons"}),
       item("Meteor.user"),
@@ -93,37 +93,37 @@ var sections = [
       item("{{currentUser}}", {longname: "currentUser"})
     ]
   }),
-  section("Methods", {
+  section("方法", {
     id: "methods",
-    subtitle: "Call server functions from the client",
+    subtitle: "从客户端调用服务器端函数",
     items: [
       item("Meteor.methods"),
       item("Meteor.call"),
       item("Meteor.Error")
     ]
   }),
-  section("Publish / Subscribe", {
+  section("发布／订阅", {
     id: "pubsub",
-    subtitle: "Sync part of your data to the client",
+    subtitle: "将一部分数据发给客户端",
     items: [
       item("Meteor.publish"),
       item("Meteor.subscribe")
     ]
   }),
-  section("Environment", {
+  section("环境", {
     id: "environment",
-    subtitle: "Control when and where your code runs",
+    subtitle: "在何时何地运行你的代码",
     items: [
       item("Meteor.isClient"),
       item("Meteor.isServer"),
       item("Meteor.startup")
     ]
   }),
-  section("Packages", {
+  section("包", {
     id: "packages",
-    subtitle: "Choose from thousands of community packages",
+    subtitle: "从上千个社区贡献的包中挑选",
     items: [
-      item("Searching for packages", {id: "searchingforpackages"}),
+      item("搜索包", {id: "searchingforpackages"}),
       item("accounts-ui", {id: "accountsui"}),
       item("coffeescript"),
       item("email"),
