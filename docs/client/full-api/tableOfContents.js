@@ -1,23 +1,23 @@
 var toc = [
   [
-    "Quick start",
-    "Seven principles",
-    "Resources"
+    "快速上手",
+    "七大原则",
+    "资源"
   ],
-  "Concepts", [
-    "What is Meteor?",
-    "Structuring your app",
-    "Data and security",
-    "Reactivity",
-    "Live HTML templates",
-    "Using packages",
-    "Namespacing",
-    "Deploying",
-    "Writing packages"
+  "概念", [
+    "什么是Meteor？",
+    "组织App的文件结构",
+    "数据与安全",
+    "响应式",
+    "实时HTML模版",
+    "使用包",
+    "命名空间",
+    "部署",
+    "编写包"
   ],
 
   "API", [
-    "Core", [
+    "核心", [
       "Meteor.isClient",
       "Meteor.isServer",
       "Meteor.isCordova",
@@ -28,7 +28,7 @@ var toc = [
       "Meteor.release"
     ],
 
-    "Publish and subscribe", [
+    "发布与订阅", [
       "Meteor.publish", [
         {instance: "this", name: "userId", id: "publish_userId"},
         {instance: "this", name: "added", id: "publish_added"},
@@ -43,7 +43,7 @@ var toc = [
       "Meteor.subscribe"
     ],
 
-    {name: "Methods", id: "methods_header"}, [
+    {name: "方法", id: "methods_header"}, [
       "Meteor.methods", [
         {instance: "this", name: "userId", id: "method_userId"},
         {instance: "this", name: "setUserId", id: "method_setUserId"},
@@ -56,13 +56,13 @@ var toc = [
       "Meteor.apply"
     ],
 
-    {name: "Check", id: "check_package"}, [
+    {name: "校验", id: "check_package"}, [
       "check",
       "Match.test",
-      {name: "Match patterns", style: "noncode"}
+      {name: "校验规则", style: "noncode"}
     ],
 
-    {name: "Server connections", id: "connections"}, [
+    {name: "服务器连接", id: "connections"}, [
       "Meteor.status",
       "Meteor.reconnect",
       "Meteor.disconnect",
@@ -70,7 +70,7 @@ var toc = [
       "DDP.connect"
     ],
 
-    {name: "Collections", id: "collections"}, [
+    {name: "数据集", id: "collections"}, [
       "Mongo.Collection", [
         {instance: "collection", name: "find"},
         {instance: "collection", name: "findOne"},
@@ -93,20 +93,20 @@ var toc = [
       {type: "spacer"},
       {name: "Mongo.ObjectID", id: "mongo_object_id"},
       {type: "spacer"},
-      {name: "Selectors", style: "noncode"},
-      {name: "Modifiers", style: "noncode"},
-      {name: "Sort specifiers", style: "noncode"},
-      {name: "Field specifiers", style: "noncode"}
+      {name: "选择符", style: "noncode"},
+      {name: "修改符", style: "noncode"},
+      {name: "排序标示符", style: "noncode"},
+      {name: "字段标示符", style: "noncode"}
     ],
 
-    "Session", [
+    "会话变量", [
       "Session.set",
       {name: "Session.setDefault", id: "session_set_default"},
       "Session.get",
       "Session.equals"
     ],
 
-    {name: "Accounts", id: "accounts_api"}, [
+    {name: "账户系统", id: "accounts_api"}, [
       "Meteor.user",
       "Meteor.userId",
       "Meteor.users",
@@ -130,7 +130,7 @@ var toc = [
       "Accounts.onLoginFailure"
     ],
 
-    {name: "Passwords", id: "accounts_passwords"}, [
+    {name: "密码管理", id: "accounts_passwords"}, [
       "Accounts.createUser",
       "Accounts.changePassword",
       "Accounts.forgotPassword",
@@ -152,7 +152,7 @@ var toc = [
       "Accounts.emailTemplates"
     ],
 
-    {name: "Templates", id: "templates_api"}, [
+    {name: "模版", id: "templates_api"}, [
       {prefix: "Template", instance: "myTemplate", id: "templates_api"}, [
         {name: "events", id: "template_events"},
         {name: "helpers", id: "template_helpers"},
@@ -160,7 +160,7 @@ var toc = [
         {name: "created", id: "template_created"},
         {name: "destroyed", id: "template_destroyed"}
       ],
-      {name: "Template instances", id: "template_inst"}, [
+      {name: "模版实体", id: "template_inst"}, [
         {instance: "template", name: "findAll", id: "template_findAll"},
         {instance: "template", name: "$", id: "template_$"},
         {instance: "template", name: "find", id: "template_find"},
@@ -177,9 +177,9 @@ var toc = [
       "Template.body",
       {name: "{{> Template.dynamic}}", id: "template_dynamic"},
       {type: "spacer"},
-      {name: "Event maps", style: "noncode"}
+      {name: "事件映射", style: "noncode"}
     ],
-    "Blaze", [
+    "Blaze模版引擎", [
       "Blaze.render",
       "Blaze.renderWithData",
       "Blaze.remove",
@@ -197,17 +197,17 @@ var toc = [
       "Blaze.Template",
       "Blaze.isTemplate",
       {type: "spacer"},
-      {name: "Renderable content", id: "renderable_content", style: "noncode"}
+      {name: "可渲染内容", id: "renderable_content", style: "noncode"}
      ],
 
-    "Timers", [
+    "计时器", [
       "Meteor.setTimeout",
       "Meteor.setInterval",
       "Meteor.clearTimeout",
       "Meteor.clearInterval"
     ],
 
-    "Tracker", [
+    "跟踪器", [
       "Tracker.autorun",
       "Tracker.flush",
       "Tracker.nonreactive",
@@ -230,8 +230,8 @@ var toc = [
       ]
     ],
 
-    {name: "ReactiveVar", id: "reactivevar_pkg"}, [
-      "ReactiveVar",
+    {name: "响应式变量", id: "reactivevar_pkg"}, [
+      "响应式变量",
       {instance: "reactiveVar", name: "get", id: "reactivevar_get"},
       {instance: "reactiveVar", name: "set", id: "reactivevar_set"}
     ],
@@ -244,7 +244,7 @@ var toc = [
     //   ]
     //],
 
-    {name: "EJSON", id: "ejson"}, [
+    {name: "EJSON模块", id: "ejson"}, [
       {name: "EJSON.parse", id: "ejson_parse"},
       {name: "EJSON.stringify", id: "ejson_stringify"},
       {name: "EJSON.fromJSONValue", id: "ejson_from_json_value"},
@@ -263,22 +263,22 @@ var toc = [
     ],
 
 
-    "HTTP", [
+    "HTTP包", [
       "HTTP.call",
       {name: "HTTP.get"},
       {name: "HTTP.post"},
       {name: "HTTP.put"},
       {name: "HTTP.del"}
     ],
-    "Email", [
+    "电子邮件包", [
       "Email.send"
     ],
-    {name: "Assets", id: "assets"}, [
+    {name: "附件", id: "assets"}, [
       {name: "Assets.getText", id: "assets_getText"},
       {name: "Assets.getBinary", id: "assets_getBinary"}
     ],
 
-    {name: "package.js", id: "packagejs"}, [
+    {name: "包系统 package.js", id: "packagejs"}, [
       {name: "Package.describe", id: "packagedescription"},
       {name: "Package.onUse", id: "packagedefinition"}, [
         {name: "api.versionsFrom", id: "pack_versions"},
@@ -296,7 +296,7 @@ var toc = [
       ]
     ],
 
-    {name: "mobile-config.js", id: "mobileconfigjs"}, [
+    {name: "移动App配置 mobile-config.js", id: "mobileconfigjs"}, [
       {name: "App.info", id: "App-info"},
       {name: "App.setPreference", id: "App-setPreference"},
       {name: "App.configurePlugin", id: "App-configurePlugin"},
@@ -305,7 +305,7 @@ var toc = [
     ]
   ],
 
-  "Packages", [ [
+  "包", [ [
     "appcache",
     "accounts-ui",
     "audit-argument-checks",
@@ -322,7 +322,7 @@ var toc = [
     "webapp"
   ] ],
 
-  "Command line", [ [
+  "命令行", [ [
     "meteor help",
     "meteor run",
     "meteor create",
