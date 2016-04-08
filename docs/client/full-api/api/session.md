@@ -3,6 +3,9 @@
 
 <h2 id="session"><span>Session</span></h2>
 
+> For now, Session is going to be deprecated. `reactive-var` and
+`reactive-dict` can replace `Session` and have a better namescoping.
+
 `Session` provides a global object on the client that you can use to
 store an arbitrary set of key-value pairs. Use it to store things like
 the currently selected item in a list.
